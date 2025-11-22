@@ -4,25 +4,25 @@ const About = () => {
     const founders: Founder[] = [
         {
             id: 1,
-            name: 'Brighton',
+            name: 'Brighton Wandera',
             role: 'Co-Founder & Lead Developer',
             bio: 'Full-stack expert specializing in modern web technologies and AI integration',
         },
         {
             id: 2,
-            name: 'Veronica',
+            name: 'Muola Veronica',
             role: 'Co-Founder & Design Director',
             bio: 'Creative visionary bringing beautiful, user-centric designs to life',
         },
         {
             id: 3,
-            name: 'Marcos',
+            name: 'Marcos Solomon',
             role: 'Co-Founder & Systems Architect',
             bio: 'Backend specialist ensuring scalable and robust system architecture',
         },
         {
             id: 4,
-            name: 'Evans',
+            name: 'Kariuki Evans',
             role: 'Co-Founder & Marketing Strategist',
             bio: 'Digital marketing expert driving growth through strategic campaigns',
         },

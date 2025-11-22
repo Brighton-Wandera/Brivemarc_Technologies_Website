@@ -50,7 +50,7 @@ const Chatbot = () => {
         }
 
         if (lower.includes('about') || lower.includes('who')) {
-            return "Brivemarc Technologies is a registered Kenyan tech agency with 4 founders: Brighton, Veronica, Marcos, and Evans. We deliver Smart • Secure solutions!";
+            return "Brivemarc Technologies is a registered Kenyan tech agency with 4 founders: Brighton Wandera, Muola Veronica, Marcos Solomon, and Kariuki Evans. We deliver Smart • Secure solutions!";
         }
 
         return "I can help you with:\n• Our services\n• Pricing\n• Contact info\n• About us\n\nOr call 0717770536 for immediate help!";
@@ -126,8 +126,8 @@ const Chatbot = () => {
                         {messages.map((message) => (
                             <div key={message.id} className={`flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
                                 <div className={`max-w-[80%] rounded-2xl p-3 ${message.sender === 'user'
-                                        ? 'bg-gradient-to-r from-gold-500 to-gold-400 text-deep-black'
-                                        : 'glass-card text-white'
+                                    ? 'bg-gradient-to-r from-gold-500 to-gold-400 text-deep-black'
+                                    : 'glass-card text-white'
                                     }`}>
                                     <p className="text-sm whitespace-pre-line">{message.text}</p>
                                     <p className="text-xs mt-1 opacity-70">
